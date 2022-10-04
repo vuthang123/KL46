@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 
 @echo off 
 :end

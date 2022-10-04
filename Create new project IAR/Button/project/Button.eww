@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\..\..\..\..\arm\9.30.1\Altera\CycloneV\GettingStarted\GettingStarted.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Button.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>All</name>
+            <member>
+                <project>GettingStarted</project>
+                <configuration>DDR</configuration>
+            </member>
+            <member>
+                <project>GettingStarted</project>
+                <configuration>OCRAM</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>

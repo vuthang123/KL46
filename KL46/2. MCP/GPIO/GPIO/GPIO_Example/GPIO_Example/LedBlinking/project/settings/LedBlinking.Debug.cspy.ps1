@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\THANG\Dropbox\PC\Desktop\KL46_GIT\KL46\2. MCP\GPIO\GPIO\GPIO_Example\GPIO_Example\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 }
