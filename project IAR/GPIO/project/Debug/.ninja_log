@@ -1,0 +1,5 @@
+# ninja log v5
+2	712	6872434376450604	C:/Users/THANG/Dropbox/PC/Desktop/KL46_GIT/project IAR/GPIO/project/Debug/Obj/Startup/startup_MKL46Z4.o	ed2c21e30595845c
+624	1244	6872434381590525	C:/Users/THANG/Dropbox/PC/Desktop/KL46_GIT/project IAR/GPIO/project/Debug/Obj/source/Ledbinkling.o	340cabc2daef9332
+633	1279	6872434381610513	C:/Users/THANG/Dropbox/PC/Desktop/KL46_GIT/project IAR/GPIO/project/Debug/Obj/Startup/system_MKL46Z4.o	c842379b5e36e0f0
+1318	2415	6872434393321822	C:/Users/THANG/Dropbox/PC/Desktop/KL46_GIT/project IAR/GPIO/project/Debug/Exe/GPIO.out	68215f5161a38fc9
